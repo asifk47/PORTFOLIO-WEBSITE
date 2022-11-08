@@ -1,0 +1,73 @@
+@import url(background.css);
+/* @import url(style.css); */
+@import url(scrollbar.css);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fuzzy+Bubbles&family=Kanit:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+/* .home {
+    background-color: rgb(200, 228, 241);
+    width: 90vw;
+    font-family: 'EB Garamond', serif; */
+/* } */
+.blogcontainer h1 {
+    font-family: 'Kanit', sans-serif;
+    color: blue;
+    text-decoration: underline solid black;
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 42px
+}
+
+.blogcontainer span {
+    color: #dd0b3c;
+}
+
+#blogbox {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+#blogbox .box {
+    border: 2px solid black;
+    /* height: fit-content; */
+    width: 15rem;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 23px;
+    background-color: #4ec7eb;
+}
+
+#blogbox .box img {
+    height: 120px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    padding: 17px;
+}
+
+#blogbox h2 {
+    text-align: center;
+}
+
+#blogbox h3 {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.box a {
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.box a:hover {
+    text-decoration: underline;
+    color: rgb(151, 24, 141);
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #31333e;
+    opacity: 0.70;
+    width: 300px;
+    height: 100vh;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 34px 0px;
+}
+
+.home {
+    background-color: #d7d7d7;
+    opacity: 0.89;
+    width: 90vw;
+    font-family: 'EB Garamond', serif;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 16px;
+    padding: 22px;
+}
+
+.sidebar nav li a {
+    border-radius: 20px;
+    text-decoration: none;
+    color: #40ff95;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.sidebar nav li a:hover {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    background-color: black;
+
+}
+
+
+.container {
+    display: flex;
+}

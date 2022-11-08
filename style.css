@@ -1,0 +1,115 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+                    @import url(scrollbar.css);
+
+                    * {
+                        margin: 0%;
+                        padding: 0;
+                    }
+
+                    .sidebar {
+                        background-image: url(pictures/asifsidebg.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        opacity: 0.70;
+                        width: 300px;
+                        height: 100vh;
+                        font-family: 'Fuzzy Bubbles', cursive;
+                        padding: 34px 0px;
+                    }
+
+                    .sidebar nav li {
+                        list-style: none;
+                        font-size: 16px;
+                        padding: 22px;
+                    }
+
+                    .sidebar nav li a {
+                        border-radius: 20px;
+                        text-decoration: none;
+                        color: #40ff95;
+                        border: 3px solid black;
+                        padding: 5px;
+                    }
+
+                    .sidebar nav li a:hover {
+                        text-decoration: none;
+                        color: wheat;
+                        font-size: 18px;
+                        background-color: black;
+
+                    }
+
+                    .home {
+                        background-image: url(pictures/asifbg.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        opacity: 0.89;
+                        width: 90vw;
+                        font-family: 'EB Garamond', serif;
+                    }
+
+                    .container {
+                        display: flex;
+                    }
+
+                    .infocontainer {
+                        /* background-color: aqua; */
+                        height: 45vh;
+                        width: 80vw;
+                        display: flex;
+                        margin: 15px auto;
+                        /* justify-content: space-around; */
+                    }
+
+                    .devpic img {
+                        height: 45vh;
+                        /* margin-left: -169px; */
+                    }
+
+                    .devinfo {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        font-family: 'Source Code Pro', monospace;
+                        color: navajowhite;
+
+                    }
+
+                    .hello {
+                        font-size: 25px;
+                    }
+
+                    .name {
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+
+                    .about {
+                        font-size: 24px;
+                    }
+
+                    .buttons {
+                        margin-top: 34px;
+                    }
+
+                    .buttons button {
+                        background-color: rgb(15 116 126);
+                        margin: 0px 0;
+                        padding: 6px 7px;
+                        border-radius: 20px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+
+                    .buttons button:hover {
+                        color: blue;
+                        background-color: aqua;
+                        cursor: pointer;
+                    }
+
+                    /* contact page CSS */

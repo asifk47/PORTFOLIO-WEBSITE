@@ -1,0 +1,74 @@
+@import url(background.css);
+@import url(scrollbar.css);
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.Contactform h1 {
+    color: black;
+    font-size: 26px;
+    font-weight: 100;
+    padding: 30px 0;
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+}
+
+.Contactform {
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    padding: 35px;
+    font-size: 16px;
+}
+
+.Contactform form div {
+    color: black;
+    font-size: 15px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contactform form div input {
+    color: black;
+    padding: 6px;
+    width: 28vw;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+.Contactform form div textarea {
+    padding: 6px;
+    width: 28vw;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+.form-text {
+    font-size: 10px;
+    color: #023ee9;
+}
+
+.Contactform button {
+    margin: 14px 11px;
+    padding: 4px 22px;
+    font-size: 15px;
+    background-color: rgb(142 217 239);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Contactform button:hover {
+    cursor: pointer;
+    background-color: inherit;
+    color: red;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}

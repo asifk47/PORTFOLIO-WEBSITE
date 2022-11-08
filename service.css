@@ -1,0 +1,64 @@
+@import url(background.css);
+@import url(scrollbar.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fuzzy+Bubbles&family=Kanit:wght@300&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.service h1 {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(217 14 14);
+    text-decoration: underline solid rgb(217 14 14);;
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 42px;
+}
+
+#servicebox {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+#servicebox .box {
+    border: 2px solid black;
+    height: fit-content;
+    width: 20rem;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 23px;
+    background-color: #99d968;
+}
+
+#servicebox .box img {
+    height: 120px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    padding: 17px;
+}
+
+#servicebox h2 {
+    text-align: center;
+}
+
+#servicebox h3 {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#box1 h3 {
+    border: none;
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    width: 328px;
+    height: 300px;
+    overflow: scroll;
+}

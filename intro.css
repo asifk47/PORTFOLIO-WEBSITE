@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Marcellus+SC&display=swap');
+/* @import url(style.css); */
+@import url(scrollbar.css);
+@import url(background.css);
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.introcontainer {
+    margin: 34px;
+}
+
+.introcontainer h2 {
+    color: #23b2e9;
+    padding: 20px 0;
+    display: flex;
+    font-family: 'Marcellus SC', serif;
+    ;
+}
+
+.aboutme p {
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+}
+
+.skillbox {
+    display: flex;
+    margin: 5px 45px;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+.skillbox img {
+    width: 118px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillbox h3 {
+    color: rgb(241, 24, 24);
+    text-align: center;
+    padding: 6px 0;
+
+}
